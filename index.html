@@ -13,8 +13,8 @@
 <body>
     <div class="container">
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city..." required class="search-form-input"
+        <form id="search-form">
+            <input type="search" placeholder="Enter a city..." required class="search-form-input" id="search-input"
              />
             <input type="submit" value="Search" class="search-form-submit" />
         </form>
@@ -22,7 +22,7 @@
     <main>
         <div class="weather-app-data">
         <div>
-            <h1 class="weather-app-city">Houston</h1>
+            <h1 class="weather-app-city" id="city">Houston</h1>
             <p class="weather-app-details">
                 Thursday 17:13, scattered clouds
                 <br />
@@ -41,5 +41,6 @@
          hosted by <a href="https://weather-by-anne.netlify.app/" target="_blank">Netlify</a>
     </footer>
 </div>
+<script src="src/index.js"></script>
 </body>
 </html>
