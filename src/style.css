@@ -12,9 +12,26 @@ body {
     box-shadow: 8px 10px 22px 5px rgba(0, 0, 0, 0.2);
 }
 
+header {
+    border-bottom: 1px solid #f0ece2;
+    padding: 0 0 30px 0;
+}
+
 input {
     font-family: "Fira Code", monospace;
 
+}
+
+footer {
+    border-top: 1px solid #f0ece2;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+a {
+    color: #c7b198;
 }
 
 .search-form-input {
