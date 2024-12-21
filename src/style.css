@@ -11,3 +11,27 @@ body {
     border-radius: 16px;
     box-shadow: 8px 10px 22px 5px rgba(0, 0, 0, 0.2);
 }
+
+input {
+    font-family: "Fira Code", monospace;
+
+}
+
+.search-form-input {
+    background-color: #f0ece2;
+    border: none;
+    border-radius: 5px;
+    width: 75%;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.search-form-submit {
+    background-color: #c7b198;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    padding: 15px 20px;
+    font-size: 16px;
+}
