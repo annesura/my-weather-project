@@ -60,3 +60,27 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Houston");
+
+function displayForecast() {
+let days = ["Mon", "Tue", "Wed", "Thu", "Fri"
+];
+let forecastHtml = "";
+
+days.forEach( function (day) {
+    forecastHtml = forecastHtml + `<div class="weather-forecast-day">
+            <div class="weather-forecast-date">${day}</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temperatures"> 
+                <div class="weather-forecast-temperature"><strong>11°</strong></div>
+                 <div class="weather-forecast-temperature">7°</div>
+                </div>
+        </div>`;
+
+});
+
+    let forecastElement = document.querySelector("#forecast");
+    forecastElement.innerHTML = forecastHtml;
+
+}
+
+displayForecast();
